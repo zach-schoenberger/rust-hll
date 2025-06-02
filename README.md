@@ -1,7 +1,7 @@
 # rust-hll
 
 A Rust implementation of [HyperLogLog](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf) that is
-storage-compatible with the [Aggregate Knowledge HLL Storage Spec](https://github.com/aggregateknowledge/hll-storage-spec).
+storage-compatible with the [Aggregate Knowledge HLL Storage Spec](https://github.com/aggregateknowledge/hll-storage-spec). It is heavily based on the work done in [go-hll](https://github.com/segmentio/go-hll).
 
 ## Overview
 HyperLogLog (HLL) is a fixed-size, set-like structure used for distinct value counting with tunable precision. For

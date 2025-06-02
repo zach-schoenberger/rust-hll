@@ -246,8 +246,8 @@ fn test_random_values_sparse() {
 
         // Generate random values and add them to both the registers and expected map
         for _ in 0..100 {
-            let register = rng.gen_range(0..(1 << sparse_test_settings().log_2m));
-            let value: u8 = rng.gen_range(1..=31);
+            let register = rng.random_range(0..(1 << sparse_test_settings().log_2m));
+            let value: u8 = rng.random_range(1..=31);
             registers.set_if_greater(register, value);
 
             // Update expected map with max value

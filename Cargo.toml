@@ -2,6 +2,15 @@
 name = "rust-hll"
 version = "0.1.0"
 edition = "2024"
+authors = ["Zach Schoenberger"]
+description = "A Rust implementation of HLL that is compatible with the Aggregate Knowledge HLL Storage Spec"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/zach-schoenberger/rust-hll"
+documentation = "https://docs.rs/rust-hll"
+categories = ["data-structures"]
+keywords = ["hll", "hyperloglog", "aggregate-knowledge", "storage-spec"]
+
 
 [dependencies]
 thiserror = "2.0.12"
